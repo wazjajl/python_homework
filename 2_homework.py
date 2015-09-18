@@ -3,7 +3,7 @@
 # @Author: zhangmingqian
 # @Date:   2015-09-15 18:12:26
 # @Last Modified by:   Administrator
-# @Last Modified time: 2015-09-15 18:27:47
+# @Last Modified time: 2015-09-16 15:10:09
 
 print "能被17整除的是："
 j = 1
@@ -11,7 +11,6 @@ j = 1
 for i in xrange(100, 1000):
     if i % 17 == 0:
         print i,
-        i += 1
         j += 1
         # output ten numbers every row.
         if j % 11 == 0:
